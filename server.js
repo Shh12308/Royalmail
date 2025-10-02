@@ -21,7 +21,7 @@ app.post("/api/lemon-webhook", async (req, res) => {
 
     // Match Lemon variant ID to coin amounts
     const packageMap = {
-      "VARIANT_ID_100": 100,
+      "1022523": 100,
       "VARIANT_ID_250": 275,
       "VARIANT_ID_500": 575,
       "VARIANT_ID_1000": 1200,
